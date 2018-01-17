@@ -1,7 +1,8 @@
-package com.example.smarclarity.bible_ebate
+package com.example.smarclarity.bible_ebate.view
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.smarclarity.bible_ebate.R
 
 class MainActivity : AppCompatActivity() {
 
