@@ -1,13 +1,13 @@
-package com.bibledebate.view.adapter
+package com.bibledebate.ui.view.adapter
 
 import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import com.example.smarclarity.bible_ebate.R
-import com.bibledebate.model.Book
-import com.bibledebate.presenter.BookBiblePresenter
-import com.bibledebate.utilites.setImageBackground
+import com.bibledebate.domain.model.Book
+import com.bibledebate.ui.presenter.BookBiblePresenter
+import com.bibledebate.ui.utilites.setImageBackground
 
 /**
  * Created by SmarClarity on 19-01-2018.
