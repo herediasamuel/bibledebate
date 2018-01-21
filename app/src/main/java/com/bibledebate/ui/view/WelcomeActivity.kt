@@ -1,16 +1,13 @@
-package com.example.smarclarity.bible_ebate.view
+package com.bibledebate.ui.view
 
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
-import android.support.v4.view.ViewPager
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.View
 import android.view.animation.AnimationUtils
-import android.widget.Button
 import android.widget.ImageView
-import android.widget.LinearLayout
 import com.example.smarclarity.bible_ebate.R
 import java.io.IOException
 
