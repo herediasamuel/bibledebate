@@ -27,6 +27,7 @@ class MainActivity : BaseActivity(), BookBiblePresenter.View {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         initializeAdapter()
+        initializeRecyclerView()
     }
 
     private fun initializeAdapter() {

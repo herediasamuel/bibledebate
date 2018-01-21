@@ -23,18 +23,33 @@ class BibleRepository {
 
     private fun insertData() : List<Book> {
         return listOf(Book(name = "Genesis",
-                photo = "https://www.google.cl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiS38DykeTYAhUGkpAKHYZBCGIQjRwIBw&url=https%3A%2F%2Fes.slideshare.net%2Fangelusrj%2Fgenesis-julio-2013&psig=AOvVaw2gaScrn6gD5s9H4IKkOlwi&ust=1516455163503275",
-                isNewTestament = true,
+                photo = "https://i.pinimg.com/564x/ed/b1/3b/edb13b2c31190ecfeb41d9c77b5554c1--biblical-art-biblical-quotes.jpg",
+                isNewTestament = false,
                 description = "Primer Libro de la Biblia"),
-                Book(name = "Iron Fist",
-                        photo = "https://i.annihil.us/u/prod/marvel/i/mg/6/60/537bb1756cd26.jpg",
-                        isNewTestament = true,
-                        description = "Through concentration, Iron Fist can harness his spiritual energy, or chi, " +
-                                "to augment his physical and mental capabilities to peak human levels. By focusing his chi "
-                                + "into his hand, he can tap the superhuman energy of Shou-Lao and temporarily "
-                                + "render his fist superhumanly powerful, immune to pain and injury; however, this "
-                                + "process is mentally draining, and he usually needs recovery time before he can "
-                                + "repeat it. Iron Fist can heal himself of any injury or illness and project this "
-                                + "power to heal others."))
+                Book(name = "Exodo",
+                        photo = "https://assetsnffrgf-a.akamaihd.net/assets/m/502013369/univ/art/502013369_univ_lsr_lg.jpg",
+                        isNewTestament = false,
+                        description = "Primer Libro de la Biblia"),
+                Book(name = "Levitico",
+                        photo = "https://s-media-cache-ak0.pinimg.com/originals/96/5f/9a/965f9a8b220009d14526b4820be857b0.jpg",
+                        isNewTestament = false,
+                        description = "Primer Libro de la Biblia"),
+                Book(name = "Numeros",
+                        photo = "https://assetsnffrgf-a.akamaihd.net/assets/m/502016105/univ/art/502016105_univ_lsr_lg.jpg",
+                        isNewTestament = false,
+                        description = "Primer Libro de la Biblia"),
+                Book(name = "Deuteronomio",
+                        photo = "https://s-media-cache-ak0.pinimg.com/originals/d6/b7/de/d6b7dea256509cae49560fabf67cc543.jpg",
+                        isNewTestament = false,
+                        description = "Primer Libro de la Biblia"),
+                Book(name = "Josue",
+                        photo = "https://assetsnffrgf-a.akamaihd.net/assets/m/502015220/univ/art/502015220_univ_lsr_lg.jpg",
+                        isNewTestament = false,
+                        description = "Primer Libro de la Biblia"),
+                Book(name = "Jueces",
+                        photo = "https://assetsnffrgf-a.akamaihd.net/assets/m/1102016040/univ/art/1102016040_univ_lsr_xl.jpg",
+                        isNewTestament = false,
+                        description = "Primer Libro de la Biblia")
+                )
     }
 }
