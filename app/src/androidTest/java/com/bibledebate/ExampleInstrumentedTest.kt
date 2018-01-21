@@ -1,4 +1,4 @@
-package com.example.smarclarity.bible_ebate
+package com.bibledebate
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
