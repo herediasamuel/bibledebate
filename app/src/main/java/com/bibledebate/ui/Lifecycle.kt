@@ -1,8 +1,6 @@
 package com.bibledebate.ui
 
-/**
- * Created by SmarClarity on 20-01-2018.
- */
+
 val lifeCycleLinker = LifecycleLinker()
 
 class LifecycleLinker : LifecyclePublisher {

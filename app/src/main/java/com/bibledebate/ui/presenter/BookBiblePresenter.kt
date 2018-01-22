@@ -6,9 +6,7 @@ import com.bibledebate.common.weak
 import com.bibledebate.domain.model.Book
 import com.bibledebate.domain.usecase.GetBookBible
 
-/**
- * Created by SmarClarity on 18-01-2018.
- */
+
 class BookBiblePresenter (
         view: View,
         private val getBookBible : GetBookBible) : LifecycleSubscriber {

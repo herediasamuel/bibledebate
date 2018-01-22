@@ -9,9 +9,7 @@ import com.github.salomonbrys.kodein.bind
 import com.github.salomonbrys.kodein.conf.ConfigurableKodein
 import com.github.salomonbrys.kodein.singleton
 
-/**
- * Created by SmarClarity on 20-01-2018.
- */
+
 class BibleDebateAplication : Application(), KodeinAware {
     override val kodein = ConfigurableKodein(mutable = true)
     var overrideModule: Kodein.Module? = null

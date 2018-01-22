@@ -10,9 +10,7 @@ import com.bibledebate.ui.lifeCycleLinker
 import com.github.salomonbrys.kodein.Kodein
 import com.github.salomonbrys.kodein.android.KodeinAppCompatActivity
 
-/**
- * Created by SmarClarity on 20-01-2018.
- */
+
 
 abstract class BaseActivity : KodeinAppCompatActivity(), LifecyclePublisher by lifeCycleLinker {
 
