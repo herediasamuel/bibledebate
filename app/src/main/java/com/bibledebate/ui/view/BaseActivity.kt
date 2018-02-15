@@ -7,19 +7,17 @@ import com.bibledebate.ui.LifecyclePublisher
 import com.bibledebate.ui.LifecycleSubscriber
 import com.bibledebate.asApp
 import com.bibledebate.ui.lifeCycleLinker
-import com.github.salomonbrys.kodein.Kodein
+import com.github.salomonbrys.kodein.Kodein.Module
 import com.github.salomonbrys.kodein.android.KodeinAppCompatActivity
 
-/**
- * Created by SmarClarity on 20-01-2018.
- */
+
 
 abstract class BaseActivity : KodeinAppCompatActivity(), LifecyclePublisher by lifeCycleLinker {
 
     abstract val layoutId: Int
     abstract val presenter: LifecycleSubscriber
     abstract val toolbarView: Toolbar
-    abstract val activityModules: Kodein.Module
+    abstract val activityModules: Module
 
     override fun onCreate(savedInstanceState: Bundle?) {
         applicationContext.asApp().addModule(activityModules)

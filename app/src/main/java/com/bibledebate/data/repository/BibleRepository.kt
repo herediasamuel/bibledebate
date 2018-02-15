@@ -2,9 +2,6 @@ package com.bibledebate.data.repository
 
 import com.bibledebate.domain.model.Book
 
-/**
- * Created by SmarClarity on 19-01-2018.
- */
 class BibleRepository {
 
     private val bookBible: List<Book>

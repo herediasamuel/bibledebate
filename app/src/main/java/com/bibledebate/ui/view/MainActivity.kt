@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.Toolbar
 import android.view.View
-import com.example.smarclarity.bible_ebate.R
+import com.bibledebate.R
 import com.bibledebate.domain.model.Book
 import com.bibledebate.ui.presenter.BookBiblePresenter
 import com.bibledebate.domain.usecase.GetBookBible
@@ -52,15 +52,16 @@ class MainActivity : BaseActivity(), BookBiblePresenter.View {
     override fun showEmptyCase() {
         tv_empty_case.visibility = View.VISIBLE
     }
-  /*  override fun openDetail(name: String) {
-        .open(activity = this, superHeroName = name)
-    }*/
+
+    override fun openDetail(name: String) {
+        BookBibleDetailActivity.open(activity = this, bookBibleName = name)
+    }
+
     override fun showBooksBible(bookBible: List<Book>) {
         adapter.clear()
         adapter.addAll(bookBible)
         adapter.notifyDataSetChanged()
     }
-
 
 
     override val activityModules = Kodein.Module(allowSilentOverride = true) {

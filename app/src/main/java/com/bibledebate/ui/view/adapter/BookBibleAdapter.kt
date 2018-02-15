@@ -4,13 +4,11 @@ package com.bibledebate.ui.view.adapter
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.example.smarclarity.bible_ebate.R
+import com.bibledebate.R
 import com.bibledebate.domain.model.Book
 import com.bibledebate.ui.presenter.BookBiblePresenter
 
-/**
- * Created by SmarClarity on 19-01-2018.
- */
+
 
 internal class BookBibleAdapter (
          private val presenter: BookBiblePresenter): RecyclerView.Adapter<BookViewHolder>(){
