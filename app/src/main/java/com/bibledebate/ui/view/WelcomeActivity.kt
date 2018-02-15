@@ -8,7 +8,7 @@ import android.util.Log
 import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
-import com.example.smarclarity.bible_ebate.R
+import com.bibledebate.R
 import java.io.IOException
 
 

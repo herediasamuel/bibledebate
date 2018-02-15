@@ -4,14 +4,12 @@ import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
-import com.example.smarclarity.bible_ebate.R
+import com.bibledebate.R
 import com.bibledebate.domain.model.Book
 import com.bibledebate.ui.presenter.BookBiblePresenter
 import com.bibledebate.ui.utilites.setImageBackground
 
-/**
- * Created by SmarClarity on 19-01-2018.
- */
+
 class BookViewHolder (itemView: View,
                       private val presenter: BookBiblePresenter) : RecyclerView.ViewHolder(itemView) {
 
@@ -27,7 +25,7 @@ class BookViewHolder (itemView: View,
     }
 
     private fun hookListeners(bookBible: Book) {
-        //itemView.setOnClickListener { presenter.onSuperHeroClicked(bookBible) }
+        itemView.setOnClickListener { presenter.onBookBibleClicked(bookBible) }
     }
 
     private fun renderBookPhoto(photo: String?) {
